@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #7B4CAD;
+    color: #FAFA87;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+    
+header {
+    text-align:center;
+}
+#hero, footer {
+    background-color: #BF87FA;
+    text-align:center;
+    padding: 10px;
+    border: 2px solid #ADAD3B;
+}
+
+#hero img {
+    width: 300px
+}
+
+#bio {
+    text-align: center;
+}
