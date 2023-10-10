@@ -13,6 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
     text-align:center;
 }
+
+/*Hero Section*/
 #hero, footer {
     background-color: #BF87FA;
     text-align:center;
@@ -24,13 +26,24 @@ header {
     width: 300px
 }
 
+/*Bio Section*/
 #bio {
     text-align: center;
 }
 
+/*List Section*/
 #list ul li:nth-child(even) {
     color: pink;
 }
 
+/*Gallery*/
 
+#gallery {
+    border: 2px dotted yellow;
+    margin: 60px;
+    box-shadow: 10px 10px 20px black ;
+}
 
+#gallery figure {
+    text-align: center;
+}
