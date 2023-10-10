@@ -47,3 +47,14 @@ header {
 #gallery figure {
     text-align: center;
 }
+
+/*Lit*/
+
+#lit {
+    border: 2px dotted yellow;
+    margin: 60px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px black
+    
+   
+}
