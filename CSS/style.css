@@ -95,6 +95,49 @@ align-items: center;
 
 #formElements {
     display:grid;
+    row-gap: .5em;
+    
+}
+
+#contact{
+    border: 2px dotted yellow;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 10px 10px 20px black
+
+}
+
+fieldset{
+    border: 2px solid;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    background-color: #BF87FA;
+    border: 1px solid #FAFA87;
+    color: white;
+    
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+#contact button {
+    background-color: #BF87FA;
+    color: #FAFA87;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
 
 @media screen and (min-width: 60em) {
