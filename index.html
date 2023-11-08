@@ -17,9 +17,20 @@
 
     <header>
         <!--The header shows the logo and page title.-->
-
-        <img src="img/BoB.svg" alt="Blue origami bird">
-        <h1>About ME!</h1>  
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/BoB.svg" alt="Blue origami bird">
+                <h1>About ME!</h1>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
 
     </header>
     <main>
@@ -137,7 +148,7 @@
 
             <h2>Contact Us:</h2>
 
-            <form id="contactForm" name="contactForm" method="post" data-netlify="true" netlify>
+            <form id="contactForm" name="contactForm" method="post" netlify>
                 
                 <fieldset>
                     <legend>Contact Form</legend>
