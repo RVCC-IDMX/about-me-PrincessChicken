@@ -1,15 +1,17 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Kanit, sans-serif;
     background-color: #7B4CAD;
     color: #FAFA87;
+    font-size: 18pt;
 
 }
 
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Kanit', serif;
     text-align: center;
+    font-size: 24pt;
 }
     
 header {
@@ -21,11 +23,13 @@ header {
     background-color: #BF87FA;
     text-align:center;
     padding: 10px;
-    border: 2px solid #ADAD3B;
+    border: 2px dotted yellow;
 }
 
 #hero img {
-    width: 300px
+    width: 300px;
+    border: 2px solid yellow;
+    box-shadow: 10px 10px 20px black;
 }
 
 /*Bio Section*/
@@ -35,7 +39,7 @@ header {
 
 /*List Section*/
 #hobbies ul li:nth-child(even) {
-    color: pink;
+    color: #FAFA87;
     
 }
 
@@ -43,6 +47,7 @@ header {
  display: flex; 
 flex-direction: column; 
 align-items: center;
+font-size: 24pt
 }
 
 /*Gallery*/
@@ -163,6 +168,7 @@ legend {
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
     }
 
     hr {
