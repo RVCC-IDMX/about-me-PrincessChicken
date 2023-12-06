@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me!</title>
+    <link rel="icon" type="image/x-icon" href="/img/Etsy Shop Owner Photo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
+
 </head>
 <body>
         
@@ -18,7 +20,10 @@
 
     <header>
         <!--The header shows the logo and page title.-->
-        <nav class="navbar">
+
+        <!--This is the navbar-->
+         <nav class="navbar">
+            <div class="hamburger">&#9776;</div>
             <div class="logo">
                 <img src="img/Etsy Shop Owner Photo.png" alt="TH Logo">
                 <h1>About Me</h1>
@@ -32,8 +37,9 @@
                 </ul>
             </div>
         </nav>
+     
 
-    </header>
+    </header> 
     <main>
         <!--The main is where the main content lives.-->
         <section id="hero">
@@ -43,18 +49,22 @@
                         <p>Green Brook, NJ</p>
                     </div>
         </section> 
-        
+        <!--This is my biography-->
         <section id="bio">
             <h2>Biography</h2>
             <!--this is my bio-->
             <div>
         
-                <p>I want to be...</p>
-                <p>at home eating cereal.</p>
+                <p>Hi! I’m Talia Hooke and I originally started my undergrad journey as a performing arts student at Pace University in New York City. It was through this that I finally learned what it meant to be an adult and do things on my own. Though it was one of the toughest periods of my life, living in New York was the best time of my life as well. I loved being surrounded by diverse groups of people from different backgrounds. The thing that amazed me the most about New York City was that you could go ANYWHERE. All you had to do was take the subway.</p>
+                <p>
+                    That part of my life has come to a close and now, I am completing the Liberal Arts program at RVCC in hopes to study psychology when I transfer to a four year institution. The way the mind works has always been extremely fascinating to me and after taking my first psychology course, I knew that it was the right path for me. I am very hopeful for the future and can’t wait to see where this path takes me!
+                    
+                    
+                </p>
             
             </div>
         </section>
-
+        <!--This is my hobbies section-->
         <section id="hobbies">
             <h2>Hobbies</h2>
         
@@ -65,13 +75,13 @@
                 <li>Studying Korean</li>
                 <li>Journaling</li>
                 <li>Reading</li>
-
+            <!--Link to my YouTube channel-->
             </ul>
                 <div>
                     <p><a href="https://www.youtube.com/@TaliaDecember">Talia's Gaming Channel!</a></p>  
                 </div>
         </section>
-
+<!--This is my photo gallery-->
         <section id="gallery">
             <h2>Photo Gallery</h2>
             
@@ -99,44 +109,57 @@
         
             <hr>
         </section>
-
+<!--This is my CSS Animation article-->
         <article id="lit">
 
-            <h2>An Excerpt From The Picture of Dorian Gray</h2>
+            <h2>CSS Animation</h2>
             <div>
 
-                <p>"I want you to beware of him."</p>
+                <p>CSS animation is a way for an element to transition from one style to another seamlessly.</p>
 
-                <p>"To see him is to worship him; to know him is to trust him."</p>
+                <p>Animating in CSS has two components:</p>
 
-                <p>"Sibyl, you are mad about him."</p>
+                <ol type="1">
+                    <li><b>Style that describes the CSS Animation</b></li>
+                    <li><b>Keyframes that indicate the start and end of the animation</b></li>
+            
+                </ol>
 
-                <p>She laughed and took his arm. "You dear old Jim, you talk as if you were a hundred. Some day you will be in love yourself. Then you will know what it is. Don't look so sulky. Surely you should be glad to think that, though you are going away, you leave me happier than I have ever been before. Life has been hard for us both, terribly hard and difficult. But it will be different now. You are going to a new world, and I have found one. Here are two chairs; let us sit down and see the smart people go by."</p>
 
-                <p>They took their seats amidst a crowd of watchers. The tulip-beds across the road flamed like throbbing rings of fire. A white dust--tremulous cloud of orris-root it seemed--hung in the panting air. The brightly coloured parasols danced and dipped like monstrous butterflies.</p>
+                <p>Here is how I animated my cat image:
+                </p>
 
-                <p>She made her brother talk of himself, his hopes, his prospects. He spoke slowly and with effort. They passed words to each other as players at a game pass counters. Sibyl felt oppressed. She could not communicate her joy. A faint smile curving that sullen mouth was all the echo she could win. After some time she became silent. Suddenly she caught a glimpse of golden hair and laughing lips, and in an open carriage with two ladies Dorian Gray drove past.</p>
+                
+                    <p> 1. I added the image of a cat to the img tag.</p>
+                    <p> 2. I assigned my image the class of “rotate”
+                    </p>
+                    <img src="img/pic1.png"
+                    <div></div>
+                      
+                    <p> 3. In my style.css file, I put “@keyframes” and bound the name “spin” to it.</p>
+                    <p> 4. Within the “@keyframes” element, I coded “from {transform: rotate(0deg)” and “to {transform: rotate(360deg)” to ensure that the image would turn a full 360 degrees. 
+                    </p>
+                    <img src="img/pic2.png"
+                    <div></div>
+                    <p> 5. In a different section I referenced the “rotate” class with the  “:hover” attribute because I wanted the animation to occur only when someone is hovering over the element.
+                    </p>
+                    <p> 6. Within the “.rotate:hover" section I added “animation: spin 2s infinite;” to tell the code to allow the rotating to happen for two seconds per spin and to do it infinitely without stopping. </p>
+                    <img src="img/pic3.png"
+                    <div></div>
+                    <p>And VOILA!</p>
+                  </ol>
 
-                <p>She started to her feet. "There he is!" she cried.</p>
-
-                <p>"Who?" said Jim Vane.</p>
-
-                <p>"Prince Charming," she answered, looking after the victoria.</p>
-
-                <p>He jumped up and seized her roughly by the arm. "Show him to me. Which is he? Point him out. I must see him!" he exclaimed; but at that moment the Duke of Berwick's four-in-hand came between, and when it had left the space clear, the carriage had swept out of the park.</p>
-
-                <p>"He is gone," murmured Sibyl sadly. "I wish you had seen him."</p>
-
-                <p>"I wish I had, for as sure as there is a God in heaven, if he ever does you any wrong, I shall kill him."</p>
-
-                <p>She looked at him in horror. He repeated his words. They cut the air like a dagger. The people round began to gape. A lady standing close to her tittered.</p>
-
-                <p>"Come away, Jim; come away," she whispered. He followed her doggedly as she passed through the crowd. He felt glad at what he had said.</p>
-
-                <p>When they reached the Achilles Statue, she turned round. There was pity in her eyes that became laughter on her lips. She shook her head at him. "You are foolish, Jim, utterly foolish; a bad-tempered boy, that is all. How can you say such horrible things? You don't know what you are talking about. You are simply jealous and unkind. Ah! I wish you would fall in love. Love makes people good, and what you said was wicked."</p>
+                
             </div>
         </article>
-
+   
+ <!--Here is the cat image I animated for my article-->  
+        <section id="image" align="center"> 
+            <p>Hover over the image to make the cat dizzy!</p>
+            
+            <img src="img/ungatito.png" class="rotate">
+        </section>
+<!--Here is my embedded YouTube video-->
         <section id="video">
 
             <h2>A "Short" Video</h2>
@@ -144,7 +167,7 @@
             <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/O2VD0OVUWgA?si=ge-KMVcovAl6Jych" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <figcaption>The first video in my Sea of Stars series!</figcaption>
         </section>
-        
+<!--Here is the contact form-->    
         <section id="contact">
 
             <h2>Contact Us:</h2>
@@ -210,9 +233,25 @@
 
     
     <footer>
-
+<!--Here is the copyright symbol and link to my github site-->
         &copy; 2023 - Talia Hooke
-    </footer>
 
+        <p><a href="https://github.com/RVCC-IDMX/about-me-PrincessChicken">A Link to Talia's GitHub Site!</a></p>
+        
+    </footer>
+<!--Script for the hamburger menu-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.querySelector('.hamburger');
+            const navbarLinks = document.querySelector('.navbar-links');
+
+            hamburger.addEventListener('click', function () {
+                navbarLinks.classList.toggle('show');
+            });
+        }); 
+    </script>
+
+
+    </script>
 </body>
 </html>
