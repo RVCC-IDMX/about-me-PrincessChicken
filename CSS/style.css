@@ -1,3 +1,7 @@
+* {
+    max-width: 100%;
+}
+
 body {
     font-family: Kanit, sans-serif;
     background-color: #7B4CAD;
@@ -85,13 +89,20 @@ font-size: 24pt
     box-shadow: 10px 10px 20px black
        
 }
-/*
-#lit div {
-    max-width:100%;
-    columns: 40rem;
 
+#lit div {
+    width:100%;
+ }
+
+#lit {
+    max-width: 100%;
 }
-*/
+
+#lit img {
+    width: 100%;
+}
+
+
 #video {
     text-align: center;
 }
@@ -153,17 +164,15 @@ legend {
     align-items: center;
 }
 
+/* Cat Animation! */
 @keyframes spin {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
-
 }
 
 .rotate:hover {
     animation: spin 2s infinite;
 }
-
-
 
 
 @media screen and (min-width: 60em) {

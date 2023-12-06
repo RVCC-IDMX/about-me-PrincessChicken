@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
+
 </head>
 <body>
         
@@ -21,6 +22,7 @@
         <!--The header shows the logo and page title.-->
 
          <nav class="navbar">
+            <div class="hamburger">&#9776;</div>
             <div class="logo">
                 <img src="img/Etsy Shop Owner Photo.png" alt="TH Logo">
                 <h1>About Me</h1>
@@ -126,17 +128,23 @@
                 <p>Here is how I animated my cat image:
                 </p>
 
-                <ol type="1">
-                    <li>I added the image of a cat to the img tag.</li>
-                    <li>I assigned my image the class of “rotate”
-                    </li>
-                    <li>In my style.css file, I put “@keyframes” and bound the name “spin” to it.</li>
-                    <li>Within the “@keyframes” element, I coded “from {transform: rotate(0deg)” and “to {transform: rotate(360deg)” to ensure that the image would turn a full 360 degrees. 
-                    </li>
-                    <li>In a different section I referenced the “rotate” class with the  “:hover” attribute because I wanted the animation to occur only when someone is hovering over the element.
-                    </li>
-                    <li>Within the “.rotate:hover" section I added “animation: spin 2s infinite;” to tell the code to allow the rotating to happen for two seconds per spin and to do it infinitely without stopping. </li>
-
+                
+                    <p> 1. I added the image of a cat to the img tag.</p>
+                    <p> 2. I assigned my image the class of “rotate”
+                    </p>
+                    <img src="img/pic1.png"
+                    <div></div>
+                      
+                    <p> 3. In my style.css file, I put “@keyframes” and bound the name “spin” to it.</p>
+                    <p> 4. Within the “@keyframes” element, I coded “from {transform: rotate(0deg)” and “to {transform: rotate(360deg)” to ensure that the image would turn a full 360 degrees. 
+                    </p>
+                    <img src="img/pic2.png"
+                    <div></div>
+                    <p> 5. In a different section I referenced the “rotate” class with the  “:hover” attribute because I wanted the animation to occur only when someone is hovering over the element.
+                    </p>
+                    <p> 6. Within the “.rotate:hover" section I added “animation: spin 2s infinite;” to tell the code to allow the rotating to happen for two seconds per spin and to do it infinitely without stopping. </p>
+                    <img src="img/pic3.png"
+                    <div></div>
                     <p>And VOILA!</p>
                   </ol>
 
@@ -231,5 +239,18 @@
         
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.querySelector('.hamburger');
+            const navbarLinks = document.querySelector('.navbar-links');
+
+            hamburger.addEventListener('click', function () {
+                navbarLinks.classList.toggle('show');
+            });
+        }); 
+    </script>
+
+
+    </script>
 </body>
 </html>

@@ -4,6 +4,13 @@ Talia Hooke
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/df9f2ac3-b4f6-47c4-9477-ddbd8a5d8b0f/deploy-status)](https://app.netlify.com/sites/aboutmetaliahooke/deploys)
 
+# Logo
+![Etsy Shop Owner Photo](https://github.com/RVCC-IDMX/about-me-PrincessChicken/assets/145609559/7ddcb06e-9139-476e-b79a-bcd3ddff0db4)
+
+I created my logo at [https://www.picmonkey.com]
+
+I wanted the logo to feel handmade so I hand drew yellow flowers, which match the purple and yellowish green theme I have on my website. 
+
 # Description
 **Adding HTML, Images, and Links**
 <div>
@@ -64,3 +71,19 @@ For the main dark purple background, I used #7B4CAD. For the lighter purple acce
 I use a lot of dotted borders in my code and the original color for it was going to be the #ADAD3B. But, I discovered that it didn't really go that well with the purple and decided to use a bright yellow instead. So for each of the dotted borders, the color is (255, 255, 0).
 
 # Citations
+
+For Blog Article:
+[https://www.w3schools.com/css/css3_animations.asp]
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations]
+
+For Spinning Cat Animation:
+[https://www.youtube.com/watch?v=IcnonhBM-SE]
+
+# License
+CC0 1.0 Universal
+By marking the work with a CC0 public domain dedication, the creator is giving up their copyright and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
+
+
+CC0: This work has been marked as dedicated to the public domain.
+
+About Me by Talia Hooke is marked with CC0 1.0 Universal 

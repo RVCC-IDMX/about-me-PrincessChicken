@@ -75,9 +75,33 @@ main {
 }
 
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: whitesmoke;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 60rem) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-links.show {
+        display: block;
+    }
+
+}
 
 /* 
-media query for non-mobile nav bar
+media queryfor non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
