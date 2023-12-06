@@ -74,7 +74,7 @@ main {
     border-radius: 10px;
 }
 
-
+/* Media query for hamburger menu*/
 .hamburger {
     display: none;
     cursor: pointer;
